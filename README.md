@@ -1,4 +1,4 @@
-# Frequently-used-Commands
+## Frequently-used-Commands
 
 - `conda env list` or `conda info --envs`: List all conda envs
 - `conda list -n <my_env>` : List all packages installed in the env my_env
@@ -10,3 +10,6 @@
   - Connecting to the instance: `gcloud compute ssh muyang@pytorch-event-detector-vm` 
   - Stop instances `gcloud compute instances stop pytorch-event-detector-vm --zone us-west1-b`
 - check instance status: `gcloud compute instances list`. Note that you have to make sure the status is TERMINATED. Otherwise Google will charge you.
+
+## Awesome tutorials
+- [Some very common Linux commands](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/01_use_man.html)
