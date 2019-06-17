@@ -22,5 +22,8 @@ sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 os.environ['CUDA_VISIBLE_DEVICES'] = ''
 ```
 
+## Terminal
+- Check GPU cards and CPUs: `lspci`
+
 ## Awesome tutorials
 - [Some very common Linux commands](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/01_use_man.html)
