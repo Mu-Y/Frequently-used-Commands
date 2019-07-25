@@ -22,6 +22,11 @@ sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
 os.environ['CUDA_VISIBLE_DEVICES'] = ''
 ```
 
+## Vim
+- I used [amix/vimrc](https://github.com/amix/vimrc)
+- `\<leader\>nn` to open NerdTree panel, `\<C-ww\>` to switch between code and NerdTree panel. `\<leader-te\>` to select path buffer and select files to open in a new tab. `gt` goes to next tab, `gT` goes to prev tab.
+- Maybe good to check [this](https://www.freecodecamp.org/news/learn-linux-vim-basic-features-19134461ab85/) out
+
 ## Terminal
 - Check GPU cards and CPUs: `lspci`
 
