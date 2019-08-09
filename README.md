@@ -27,6 +27,10 @@ os.environ['CUDA_VISIBLE_DEVICES'] = ''
 - `\<leader\>nn` to open NerdTree panel, `\<C-ww\>` to switch between code and NerdTree panel. `\<leader-te\>` to select path buffer and select files to open in a new tab. `gt` goes to next tab, `gT` goes to prev tab.
 - Maybe good to check [this](https://www.freecodecamp.org/news/learn-linux-vim-basic-features-19134461ab85/) out
 
+## tmux
+- [tmux cheatsheet](https://tmuxcheatsheet.com/)
+- Note that you can both run from outside sessions and run within sessions
+
 ## Terminal
 - Check GPU cards and CPUs: `lspci`
 
