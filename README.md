@@ -33,6 +33,9 @@ os.environ['CUDA_VISIBLE_DEVICES'] = ''
 
 ## Terminal
 - Check GPU cards and CPUs: `lspci`
+- Unzip:
+  - Unzip the `source.zip` file and extract its content to `target_dir`, Note that `target_dir` has to be an existig direcroty: unzip source.zip -d target_dir
+  - Unzip the `source.tar.gz` file and extract its content to `target_dir`, Note that `target_dir` has to be an existig direcroty: tar -xvzf source.tar.gz -C target_dir
 
 ## Awesome tutorials
 - [Some very common Linux commands](https://linuxtools-rst.readthedocs.io/zh_CN/latest/base/01_use_man.html)
